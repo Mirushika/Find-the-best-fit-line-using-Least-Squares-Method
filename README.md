@@ -24,6 +24,7 @@ Developed by:mirushika.T
 RegisterNumber: 24901203 
 */
 ```
+```
 import numpy as np
 import matplotlib.pyplot as plt
 X=np.array(eval(input()))
@@ -42,7 +43,8 @@ Y_predicted=m*X+b
 print(Y_predicted)
 plt.scatter(X,Y)
 plt.plot(X,Y_predicted,color='red')
-plt.show()
+plt.show() ```
+
 ## Output:
 ![best fit line](sam.png)
 
