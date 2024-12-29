@@ -44,7 +44,7 @@ print(Y_predicted)
 plt.scatter(X,Y)
 plt.plot(X,Y_predicted,color='red')
 plt.show() ```
-
+```
 ## Output:
 ![best fit line](sam.png)
 
